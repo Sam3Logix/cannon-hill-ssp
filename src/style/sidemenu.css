@@ -1,0 +1,53 @@
+div#sidemenu {
+    /* background-color:#EEF0F2; */
+    /* border-radius: 10px; */
+    /* border-right: solid;
+    border-color: #868787;
+    border-width: 0.2em; */
+
+    padding: 1em 1em 1em 3em;
+
+    flex: 1;
+
+    text-align: left;
+}
+
+div#sidemenu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+div#sidemenu ul li {
+    padding: 2em 1em 1em 0.5em;
+    margin: 0em;
+
+    border-bottom: solid;
+
+    transition: 0s;
+
+    
+}
+
+div#sidemenu ul li#active {
+    background-color: #EEF0F2;
+    /* font-size: 1.1em; */
+    /* transform: scale(1.14); */
+}
+
+div#sidemenu ul li:hover {
+    transition: 0.2s;
+    background-color: #c6c8ca;
+    cursor: pointer;
+}
+
+div#sidemenu h1 {
+    font-size: var(--h1-size);
+    padding: var(--h1-padding);
+    text-align: left;
+}
+
+@media (max-width: 1100px) {
+    div#sidemenu {
+        display: none;
+    }
+}

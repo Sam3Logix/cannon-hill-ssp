@@ -1,0 +1,13 @@
+import './style/header.css';
+import logo from './img/3logixlogo.png';
+
+function Header() {
+  return (
+    <header>
+      <h1>Cannon <span id="white">Hill</span></h1>
+      <img src={logo}></img>
+    </header>
+  );
+}
+
+export default Header;

@@ -1,0 +1,121 @@
+h1 {
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-size: var(--h1-size);
+    /* margin-left: 1em; */
+    padding: var(--h1-padding);
+}
+
+div#wtss-main {
+
+    padding: 1vw;
+
+    text-align: center;
+
+    background-color: #EEF0F2;
+
+    /* border-radius: 10px; */
+
+    flex: 2;
+}
+
+input.wtss-service-locator-search-field {
+    width: 80%;
+    height: var(--input-box-height);
+    margin-bottom: 2em;
+}
+
+/* Property list */
+
+ul.wtss-fancy-selector {
+    padding: 0;
+    /* margin: 2em */
+}
+
+li.wtss-site {
+    list-style-type: none;
+    border-radius: 10px;
+    padding: 0.5em;
+    margin: 0.2em;
+    background-color: #EEF0F2;
+    transition-duration: 0.3s;
+    text-align: center;
+}
+
+li.wtss-site:hover {
+    background-color: #c6c8ca;
+    transform: scale(1.05);
+}
+
+/* Site table */
+
+table.wtss-service-locator-results {
+    border-collapse: separate;
+    border-spacing: 0 0.5em;
+
+    width: 80%;
+
+    margin: auto;
+
+    text-align: left;
+
+    
+}
+
+table.wtss-service-locator-results td {
+    background-color: white;
+    padding: 0.5em;
+}
+
+table.wtss-service-locator-results tbody tr:hover {
+    transition: 0.3s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    transform: scale(1.1);
+}
+
+/* Search again */
+
+div.wtss-search-again {
+    margin: 3vh;
+    
+}
+
+div.wtss-search-again a {
+    background-color: #BBB;
+    color: black;
+
+    padding: 1em;
+    
+    border-radius: 4px;
+
+    text-decoration: none;
+}
+
+div.wtss-search-again a:hover {
+    /* background-color: #1999D6; */
+    border: solid;
+    font-size: 1.1em;
+
+    transition: 0.3s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+} 
+
+@media (max-width: 1100px) {
+    div#wtss-main {
+        border-radius: 10px;
+        /* height: 77vh; */
+    }
+}
+
+/* Phone entry */
+
+input#wtss-phone {
+    height: var(--input-box-height);
+    width: 40%;
+    margin: 1em;
+}
+
+input.wtss-submit {
+    height: var(--input-box-height);
+}
