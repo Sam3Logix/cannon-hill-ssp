@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/cannon-hill-ssp/static/css/main.4b56e80f.css",
+    "main.js": "/cannon-hill-ssp/static/js/main.e0622543.js",
+    "static/media/3logixlogo.png": "/cannon-hill-ssp/static/media/3logixlogo.bb9b7da63892fa8dcd40.png",
+    "index.html": "/cannon-hill-ssp/index.html",
+    "main.4b56e80f.css.map": "/cannon-hill-ssp/static/css/main.4b56e80f.css.map",
+    "main.e0622543.js.map": "/cannon-hill-ssp/static/js/main.e0622543.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b56e80f.css",
+    "static/js/main.e0622543.js"
+  ]
+}
