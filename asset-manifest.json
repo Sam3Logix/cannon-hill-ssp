@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/cannon-hill-ssp/static/css/main.4b56e80f.css",
-    "main.js": "/cannon-hill-ssp/static/js/main.e0622543.js",
-    "static/media/3logixlogo.png": "/cannon-hill-ssp/static/media/3logixlogo.bb9b7da63892fa8dcd40.png",
-    "index.html": "/cannon-hill-ssp/index.html",
-    "main.4b56e80f.css.map": "/cannon-hill-ssp/static/css/main.4b56e80f.css.map",
-    "main.e0622543.js.map": "/cannon-hill-ssp/static/js/main.e0622543.js.map"
+    "main.css": "/cannon-hill-spp/static/css/main.4b56e80f.css",
+    "main.js": "/cannon-hill-spp/static/js/main.8e697534.js",
+    "static/media/3logixlogo.png": "/cannon-hill-spp/static/media/3logixlogo.bb9b7da63892fa8dcd40.png",
+    "index.html": "/cannon-hill-spp/index.html",
+    "main.4b56e80f.css.map": "/cannon-hill-spp/static/css/main.4b56e80f.css.map",
+    "main.8e697534.js.map": "/cannon-hill-spp/static/js/main.8e697534.js.map"
   },
   "entrypoints": [
     "static/css/main.4b56e80f.css",
-    "static/js/main.e0622543.js"
+    "static/js/main.8e697534.js"
   ]
 }
