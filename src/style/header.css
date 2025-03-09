@@ -38,5 +38,5 @@ header img {
 
 header img:hover{
     transition-duration: 1s;
-    rotate: 360deg;
+    /* rotate: 360deg; */
 }
