@@ -9,7 +9,7 @@
     background-color: FFFAFF;
 }
 
-div.rc-anchor-error-message {
+div.grecaptcha-badge {
     position: absolute;
     left: 3px;
 }
