@@ -17,6 +17,8 @@ header span#version {
     position: absolute;
     top: 0px;
     left: 0px;
+    z-index: 99;
+    color: white;
 }
 
 header h1 {
