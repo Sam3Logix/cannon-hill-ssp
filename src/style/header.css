@@ -13,6 +13,12 @@ header {
     background-color: #032D3E;
 }
 
+header span#version {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
 header h1 {
     padding: 0;
     margin: 0;
