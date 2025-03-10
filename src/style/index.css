@@ -9,6 +9,12 @@
     background-color: FFFAFF;
 }
 
+div.grecaptcha-badge {
+    position: absolute;
+    left: 3px;
+}
+
+
 html, body {
     width: 100vw;
     padding: 0;
@@ -48,3 +54,4 @@ main > * {
         width: 90%;
     }
 }
+
