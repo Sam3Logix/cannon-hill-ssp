@@ -103,11 +103,23 @@ div.wtss-search-again a:hover {
 
 /* Phone entry */
 
-input#wtss-phone,
-form#request-cust-details div.wtss-form div.wtss-field div.wtss-input input {
+input#wtss-phone {
     height: var(--input-box-height);
     width: 40%;
     margin: 1em;
+}
+
+/* customer form */
+
+form#request-cust-details div.wtss-form div.wtss-field div.wtss-input input {
+    height: var(--input-box-height);
+    width: 50%;
+    margin: 0.5em;
+    margin-top: 0em;
+}
+
+form#request-cust-details label {
+    font-size: 2em;
 }
 
 input.wtss-submit, button.wtss-cancel {

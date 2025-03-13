@@ -4,7 +4,7 @@ import logo from './img/3logixlogo.png';
 function Header() {
   return (
     <header>
-      <span id="version">v0.2.1.2</span>
+      <span id="version">v0.2.1.3</span>
       <h1>Cannon <span id="white">Hill</span></h1>
       <img src={logo}></img>
     </header>
