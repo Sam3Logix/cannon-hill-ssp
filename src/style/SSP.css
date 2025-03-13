@@ -111,20 +111,39 @@ input#wtss-phone {
 
 /* customer form */
 
-form#request-cust-details div.wtss-form div.wtss-field div.wtss-input input {
+.wtss-form-container {
+    margin-top: 1.5em;
+}
+
+form#request-cust-details div.wtss-input input {
     height: var(--input-box-height);
-    width: 50%;
-    margin: 0.5em;
-    margin-top: 0em;
+    width: 60%;
 }
 
 form#request-cust-details label {
     font-size: 2em;
 }
 
+form#request-cust-details .wtss-field {
+    margin: 0.5em;
+}
+
 input.wtss-submit, button.wtss-cancel {
     height: var(--input-box-height);                                
 }
+
+form#request-cust-details .wtss-buttons > * {
+    margin: 0.5em;
+    width: 20%;
+}
+
+
+
+
+
+
+
+/* mobile */
 
 @media (max-width: 1100px) {
     div#wtss-main {
