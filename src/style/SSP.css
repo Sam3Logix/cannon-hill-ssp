@@ -110,8 +110,8 @@ form#request-cust-details div.wtss-form div.wtss-field div.wtss-input input {
     margin: 1em;
 }
 
-input.wtss-submit {
-    height: var(--input-box-height);
+input.wtss-submit, button.wtss-cancel {
+    height: var(--input-box-height);                                
 }
 
 @media (max-width: 1100px) {
