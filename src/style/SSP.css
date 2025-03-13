@@ -101,13 +101,6 @@ div.wtss-search-again a:hover {
     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 } 
 
-@media (max-width: 1100px) {
-    div#wtss-main {
-        border-radius: 10px;
-        /* height: 77vh; */
-    }
-}
-
 /* Phone entry */
 
 input#wtss-phone {
@@ -118,4 +111,11 @@ input#wtss-phone {
 
 input.wtss-submit {
     height: var(--input-box-height);
+}
+
+@media (max-width: 1100px) {
+    div#wtss-main {
+        border-radius: 10px;
+        /* height: 77vh; */
+    }
 }
