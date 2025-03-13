@@ -16,6 +16,12 @@
     right: -190px;
 }
 
+/* global */
+input[type="text"] {
+    height: var(--input-box-height);
+    width: 60%;
+}
+
 /* body */
 
 html, body {

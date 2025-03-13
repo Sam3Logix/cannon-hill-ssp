@@ -10,13 +10,17 @@ div#wtss-main {
 
     padding: 1vw;
 
-    text-align: center;
+    
 
     background-color: #EEF0F2;
 
     /* border-radius: 10px; */
 
     flex: 2;
+}
+
+#wtss-main > * {
+    text-align: center;
 }
 
 input.wtss-service-locator-search-field {
@@ -115,11 +119,6 @@ input#wtss-phone {
     margin-top: 1.5em;
 }
 
-form#request-cust-details div.wtss-input input {
-    height: var(--input-box-height);
-    width: 60%;
-}
-
 form#request-cust-details label {
     /* font-size: 2em; */
 }
@@ -138,6 +137,11 @@ form#request-cust-details .wtss-buttons > * {
 }
 
 
+/* site view */
+
+#wtss-dialog-site-main {
+    text-align: left;
+}
 
 
 
