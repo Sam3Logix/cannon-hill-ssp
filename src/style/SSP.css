@@ -103,7 +103,8 @@ div.wtss-search-again a:hover {
 
 /* Phone entry */
 
-input#wtss-phone {
+input#wtss-phone,
+form#request-cust-details div.wtss-form div.wtss-field div.wtss-input input {
     height: var(--input-box-height);
     width: 40%;
     margin: 1em;
