@@ -121,7 +121,7 @@ form#request-cust-details div.wtss-input input {
 }
 
 form#request-cust-details label {
-    font-size: 2em;
+    /* font-size: 2em; */
 }
 
 form#request-cust-details .wtss-field {
