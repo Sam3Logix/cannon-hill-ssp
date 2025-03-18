@@ -131,6 +131,10 @@ input#wtss-phone {
     margin: 1em;
 }
 
+.wtss-buttons {
+    margin-top: 1em;
+}
+
 /* customer form */
 
 .wtss-form-container {
@@ -142,7 +146,9 @@ form#request-cust-details .wtss-field {
 }
 
 input.wtss-submit, button.wtss-cancel {
-    height: var(--input-box-height);                                
+    height: var(--input-box-height);    
+    width: 10%;
+    margin: 0.5em;                            
 }
 
 form#request-cust-details .wtss-buttons > * {
