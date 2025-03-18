@@ -42,13 +42,31 @@ li.wtss-site {
     padding: 0.5em;
     margin: 0.2em;
     background-color: #EEF0F2;
-    transition-duration: 0.3s;
+    /* transition-duration: 0.3s; */
     text-align: center;
+    display: flex;
 }
 
 li.wtss-site:hover {
     background-color: #c6c8ca;
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
+}
+
+li.wtss-site > span {
+    justify-content: center;
+    text-align: center;
+    margin: auto 0 auto 0;
+    margin-right: 0.3em;
+}
+
+.wtss-remove {
+    height: var(--input-box-height);
+    margin-left: 1em;
+    margin-left: auto;
+}
+
+li.wtss-site:first-child {
+    margin-left: 1em;
 }
 
 /* Site table */
@@ -117,10 +135,6 @@ input#wtss-phone {
 
 .wtss-form-container {
     margin-top: 1.5em;
-}
-
-form#request-cust-details label {
-    /* font-size: 2em; */
 }
 
 form#request-cust-details .wtss-field {
