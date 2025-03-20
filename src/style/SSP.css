@@ -171,9 +171,30 @@ form#request-cust-details .wtss-buttons > * {
 
 #wtss-dialog-site-main {
     text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 
+.wtss-section-title-bar {
+    background-color: white;
+    padding: 1em;
+    border: solid;
+    border-radius: 10px;
+}
 
+.wtss-component.wtss-services-menu {
+    background: white;
+    padding: 1em;
+    margin-top: 1em;
+    border-radius: 10px;
+}
+
+.wtss-component.wtss-service-requests {
+    background-color: white;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 10px;
+  }
 
 
 
