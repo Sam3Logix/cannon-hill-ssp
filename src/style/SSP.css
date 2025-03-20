@@ -52,6 +52,12 @@ li.wtss-site:hover {
     /* transform: scale(1.05); */
 }
 
+.wtss-site.wtss-selected {
+    transform: scale(1.05);
+    background-color: white;
+    border: solid;
+}
+
 li.wtss-site > span {
     justify-content: center;
     text-align: center;
@@ -137,12 +143,6 @@ input#wtss-phone {
     margin-top: 1em;
 }
 
-button.wtss-cancel, input.wtss-submit {
-    height: var(--input-box-height);
-    width: 15%;
-    margin: 1em;
-}
-
 /* customer form */
 
 .wtss-form-container {
@@ -155,7 +155,7 @@ form#request-cust-details .wtss-field {
 
 input.wtss-submit, button.wtss-cancel {
     height: var(--input-box-height);    
-    width: 10%;
+    width: 15%;
     margin: 0.5em;                            
 }
 
