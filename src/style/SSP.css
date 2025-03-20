@@ -196,6 +196,16 @@ form#request-cust-details .wtss-buttons > * {
     border-radius: 10px;
   }
 
+  .wtss-component.wtss-booked-services {
+    background-color: white;
+    padding: 0 1em;
+  }
+
+  .wtss-component.wtss-vouchers {
+    background-color: white;
+    margin-top: 1em;
+    padding: 0 1em;
+  }
 
 
 /* mobile */
