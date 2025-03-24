@@ -3,9 +3,10 @@ import './style/SSP.css';
 function SSP() {
   return (
     <>
-    <h1>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non sodales lorem. Nam consequat ultricies eros, non blandit turpis. Aliquam tincidunt, purus quis gravida rhoncus, turpis risus aliquet turpis, eget pulvinar mauris ipsum et nunc. Aliquam euismod porttitor ipsum, eget congue quam posuere eget. Phasellus malesuada rutrum maximus. Duis fermentum, nunc in convallis dictum, ipsum elit condimentum dui, ac fringilla neque mi vitae neque. Fusce maximus, ligula id volutpat egestas, justo purus accumsan metus, a gravida leo nibh eget odio. Sed semper massa nec lobortis dapibus. Nam a sagittis justo, in lobortis lectus. Etiam ullamcorper felis id varius imperdiet. Ut ut congue felis, a cursus arcu. Nam pulvinar, enim eu ullamcorper sodales, dolor justo fringilla ligula, nec bibendum nunc libero at velit.
+<div id="wtss-main"></div>
+    <div id="wtss-request-phone-instructions-replacement" style={{display:'none'}}>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non sodales lorem. Nam consequat ultricies eros, non blandit turpis. Aliquam tincidunt, purus quis gravida rhoncus, turpis risus aliquet turpis, eget pulvinar mauris ipsum et nunc. Aliquam euismod porttitor ipsum, eget congue quam posuere eget. Phasellus malesuada rutrum maximus. Duis fermentum, nunc in convallis dictum, ipsum elit condimentum dui, ac fringilla neque mi vitae neque. Fusce maximus, ligula id volutpat egestas, justo purus accumsan metus, a gravida leo nibh eget odio. Sed semper massa nec lobortis dapibus. Nam a sagittis justo, in lobortis lectus. Etiam ullamcorper felis id varius imperdiet. Ut ut congue felis, a cursus arcu. Nam pulvinar, enim eu ullamcorper sodales, dolor justo fringilla ligula, nec bibendum nunc libero at velit.
 
 Integer blandit odio sit amet venenatis dictum. Suspendisse potenti. Cras pharetra lobortis ultricies. Donec dapibus metus non lacinia placerat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In hac habitasse platea dictumst. Fusce porta eleifend metus, eget bibendum lectus pulvinar sed. Donec a venenatis mi, fermentum pellentesque mi. Proin arcu ipsum, dignissim at iaculis id, sodales dignissim nibh. Integer a libero nisl. Ut sit amet est et libero placerat cursus sit amet eget ligula. Vestibulum suscipit lorem a risus ultrices dictum. Phasellus efficitur semper diam, vitae dignissim erat bibendum a. Ut quis felis metus. Pellentesque dictum turpis id porta interdum.
 
@@ -23,10 +24,8 @@ Suspendisse diam metus, elementum eu suscipit ultricies, accumsan vel quam. Maec
 
 Nam venenatis in nulla ut aliquam. Proin sed purus congue, finibus tortor nec, pharetra sem. Donec euismod mollis commodo. Maecenas non massa non turpis fringilla elementum nec id nibh. Cras vel efficitur neque. Sed eleifend lacinia nulla, ac porttitor tortor faucibus rutrum. Fusce tempus nulla sit amet nibh efficitur tincidunt. Morbi convallis, dui at porttitor suscipit, odio dolor imperdiet libero, a consectetur ante odio in magna. Nunc vel sapien a ante consectetur egestas. Nullam lacus ligula, tincidunt ac placerat vitae, condimentum sodales metus. Donec ac purus magna. Maecenas finibus sapien sed diam efficitur pulvinar.
 
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam luctus nisl id consequat lacinia. Cras elementum massa non enim pretium vehicula. Integer eget elit quis nibh porta ultrices. Nulla ac turpis diam. Integer metus eros, elementum vitae ipsum sed, tempor rhoncus felis. Etiam pretium aliquet consectetur. Nunc vel felis pretium, tincidunt lacus ut, dapibus metus. Integer sed tortor diam. </h1>
-    <div id="wtss-main"></div>
-    <div id="wtss-request-phone-instructions-replacement" style={{display:'none'}}>
-        These are the instructions for entering in your phone number.
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam luctus nisl id consequat lacinia. Cras elementum massa non enim pretium vehicula. Integer eget elit quis nibh porta ultrices. Nulla ac turpis diam. Integer metus eros, elementum vitae ipsum sed, tempor rhoncus felis. Etiam pretium aliquet consectetur. Nunc vel felis pretium, tincidunt lacus ut, dapibus metus. Integer sed tortor diam.
+    
     </div>
     </>
   );
