@@ -44,7 +44,7 @@ h2 {
 
 main {
     margin: auto;
-    margin-top: calc(var(--header-height) + 200vh);
+    margin-top: calc(var(--header-height) + 2vh);
 
     display: flex;
     flex-direction: row;
