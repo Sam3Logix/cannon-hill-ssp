@@ -214,11 +214,16 @@ form#request-cust-details .wtss-buttons > * {
 }
 
 div.wtss-service-menu div.wtss-ticket-type {
-    background: aliceblue;
+    /* background: aliceblue; */
     width: 25%;
     margin: auto;
     margin-bottom: 0.5em;
     text-align: center;
+}
+
+div.wtss-ticket-type div.wtss.inner-container button {
+    margin: auto;
+    width: 70%;
 }
 
 div.wtss-service-menu div.wtss-ticket-type:has(div.wtss-inner-container div.wtss-entitlement) {
@@ -236,10 +241,6 @@ div.wtss-service-menu div.wtss-ticket-type:has(div.wtss-inner-container div.wtss
   div.wtss-service-menu div.wtss-ticket-type:has(div.wtss-inner-container div.wtss-entitlement) div.wtss-inner-container button {
     width: 20%;
     margin: 0;
-  }
-
-div.wtss-service-menu div.wtss-ticket-type {
-    width: 100%;
   }
 
 div.wtss-services-menu div.wtss-service-menu {
