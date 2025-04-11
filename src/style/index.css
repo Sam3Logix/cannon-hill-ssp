@@ -22,6 +22,27 @@ input[type="text"] {
     width: 60%;
 }
 
+table {
+    width: 100%;
+    background:white;
+    border-spacing: 0;
+    border-radius: 10px;
+    text-align: left;
+}
+
+table thead {
+    background:
+    whitesmoke;
+}
+
+th {
+    line-height: 3vh;
+}
+
+td {
+    padding: 0.5em;
+}
+
 /* body */
 
 html, body {
