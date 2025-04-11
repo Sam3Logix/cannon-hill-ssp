@@ -219,12 +219,24 @@ div.wtss-service-menu div.wtss-ticket-type {
     margin: auto;
     margin-bottom: 0.5em;
     text-align: center;
+    display: flex;
 }
+
+div.wtss-service-menu div.wtss-ticket-type div.wtss-inner-container {
+    width: 50%;
+    margin-left: auto;
+  }
 
 div.wtss-ticket-type div.wtss.inner-container button {
     margin: auto;
-    width: 70%;
+    width: 100%;
 }
+
+div.wtss-service-menu div.wtss-ticket-type:has(div.wtss-inner-container div.wtss-entitlement) div.wtss-inner-container {
+    margin-left: 0px;
+    width: 100%;
+}
+
 
 div.wtss-service-menu div.wtss-ticket-type:has(div.wtss-inner-container div.wtss-entitlement) {
     width: 100%;
@@ -236,6 +248,7 @@ div.wtss-service-menu div.wtss-ticket-type:has(div.wtss-inner-container div.wtss
     border-bottom: solid 0.5px;
     margin-bottom: 0.5em;
     padding-bottom: 0.5em;
+    display: block;
   }
 
   div.wtss-service-menu div.wtss-ticket-type:has(div.wtss-inner-container div.wtss-entitlement) div.wtss-inner-container button {
