@@ -1,5 +1,5 @@
 import './style/header.css';
-import logo from './img/3logixlogo.png';
+import logo from './img/3lgx-swirl-logo.png';
 
 function Header() {
   return (
