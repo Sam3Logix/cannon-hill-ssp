@@ -222,6 +222,10 @@ div.wtss-service-menu div.wtss-ticket-type {
     display: flex;
 }
 
+div.wtss-ticket-type div.wtss-ticket-type-name {
+    align-content: center;
+}
+
 div.wtss-service-menu div.wtss-ticket-type div.wtss-inner-container {
     width: 50%;
     margin-left: auto;
@@ -241,13 +245,9 @@ div.wtss-service-menu div.wtss-ticket-type:has(div.wtss-inner-container div.wtss
 div.wtss-service-menu div.wtss-ticket-type:has(div.wtss-inner-container div.wtss-entitlement) {
     width: 100%;
     text-align: left;
-    margin: 0;
-      margin-top: 0px;
-      margin-bottom: 0px;
-    margin-top: 0.5em;
-    border-bottom: solid 0.5px;
+    border-top: solid 0.5px;
     margin-bottom: 0.5em;
-    padding-bottom: 0.5em;
+    padding-top: 0.5em;
     display: block;
   }
 
@@ -256,8 +256,8 @@ div.wtss-service-menu div.wtss-ticket-type:has(div.wtss-inner-container div.wtss
   }
 
   div.wtss-service-menu div.wtss-ticket-type:has(div.wtss-inner-container div.wtss-entitlement) div.wtss-inner-container button {
-    width: 20%;
-    margin: 0;
+    width: 50%;
+    margin-left: auto;
   }
 
 div.wtss-services-menu div.wtss-service-menu {
@@ -295,5 +295,9 @@ div.wtss-services-menu div.wtss-service-menu {
     div#wtss-main {
         border-radius: 10px;
         /* height: 77vh; */
+    }
+
+    div.wtss-service-menu div.wtss-ticket-type {
+        width: 100%;
     }
 }
