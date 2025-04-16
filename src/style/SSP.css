@@ -38,8 +38,10 @@ input.wtss-service-locator-search-field {
 /* Property list */
 
 ul.wtss-fancy-selector {
+    list-style: none;
     padding: 0;
-    /* margin: 2em */
+    width: 90%;
+    margin: auto;
 }
 
 li.wtss-site {
@@ -84,6 +86,30 @@ li.wtss-site button.wtss-remove {
     cursor: pointer;
 }
 
+/* service selector */
+
+ul.wtss-fancy-selector li {
+    margin: 0.5em;
+    font-size: 1.1em;
+    background:white;
+    padding: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+ul.wtss-fancy-selector li.wtss-selected {
+    background:#009ADA;
+    transform: scale(1.1);
+  }
+
+  ul.wtss-fancy-selector li:hover {
+    background:
+  silver;
+  }
+
+  span.value {
+    font-weight: bold;
+  }
 
 
 /* Site table */
