@@ -25,6 +25,15 @@ div#wtss-main {
     flex: 2;
 }
 
+div#wtss-dialog-create-ticket {
+    text-align: left;
+  }
+
+form#new-request-ticket input.wtss-submit {
+    margin-left: 35%;
+    margin-top: 3em;
+}
+
 #wtss-main > * {
     text-align: center;
 }
