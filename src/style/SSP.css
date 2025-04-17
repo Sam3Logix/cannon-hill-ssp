@@ -29,10 +29,15 @@ div#wtss-dialog-create-ticket {
     text-align: left;
   }
 
-form#new-request-ticket input.wtss-submit {
+form#new_request_ticket input.wtss-submit {
     margin-left: 35%;
     margin-top: 3em;
 }
+
+tr td:nth-child(4) {
+    color: red;
+    white-space: break-spaces;
+  }
 
 #wtss-main > * {
     text-align: center;
