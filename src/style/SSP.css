@@ -45,7 +45,6 @@ textarea {
   }
 
 tr td:nth-child(4) {
-    color: red;
     white-space: break-spaces;
   }
 
