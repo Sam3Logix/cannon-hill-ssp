@@ -1,3 +1,7 @@
+/* 
+TODO: Voucher ticket styling
+*/
+
 h1 {
     text-align: center;
     margin-bottom: 0.5em;
@@ -261,9 +265,8 @@ form#request-cust-details .wtss-buttons > * {
     margin-top: 1em;
     border-radius: 10px;
 }
-
-div.wtss-service-menu div.wtss-ticket-type {
-    /* background: aliceblue; */
+/*
+ div.wtss-service-menu div.wtss-ticket-type {
     width: 30%;
     margin: auto;
     margin-bottom: 0.5em;
@@ -337,7 +340,7 @@ div.wtss-services-menu div.wtss-service-menu {
 
 .wtss-ticket-type {
     margin: 1em 1em 1em 0;
-}
+} */
 
 /* mobile */
 
