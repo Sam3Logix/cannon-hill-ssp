@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/cannon-hill-ssp/static/css/main.a5feca6f.css",
-    "main.js": "/cannon-hill-ssp/static/js/main.8e6baa7d.js",
+    "main.css": "/cannon-hill-ssp/static/css/main.88389a0c.css",
+    "main.js": "/cannon-hill-ssp/static/js/main.1b18db1a.js",
     "static/media/3lgx-swirl-logo.png": "/cannon-hill-ssp/static/media/3lgx-swirl-logo.31b51da49d585690150a.png",
     "index.html": "/cannon-hill-ssp/index.html",
-    "main.a5feca6f.css.map": "/cannon-hill-ssp/static/css/main.a5feca6f.css.map",
-    "main.8e6baa7d.js.map": "/cannon-hill-ssp/static/js/main.8e6baa7d.js.map"
+    "main.88389a0c.css.map": "/cannon-hill-ssp/static/css/main.88389a0c.css.map",
+    "main.1b18db1a.js.map": "/cannon-hill-ssp/static/js/main.1b18db1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5feca6f.css",
-    "static/js/main.8e6baa7d.js"
+    "static/css/main.88389a0c.css",
+    "static/js/main.1b18db1a.js"
   ]
 }
