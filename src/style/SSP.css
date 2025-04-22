@@ -6,7 +6,7 @@ TODO: Voucher ticket styling
 }
 
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
     :root{
         --main-color: #272727;
     }
@@ -14,7 +14,7 @@ TODO: Voucher ticket styling
     body {
         background-color: var(--main-color);
     }
-}
+} */
 
 h1 {
     text-align: center;
