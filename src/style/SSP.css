@@ -304,7 +304,7 @@ div.wtss-service-menu > * > * > button {
 }
 
 .wtss-voucher-type:hover,
-.wtss-ticket-type 
+.wtss-ticket-type:hover 
 {
     background: aliceblue;
 }
