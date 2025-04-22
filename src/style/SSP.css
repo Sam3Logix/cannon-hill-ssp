@@ -139,13 +139,21 @@ ul.wtss-fancy-selector li {
 }
 
 ul.wtss-fancy-selector li.wtss-selected {
-    background:#009ADA;
+    background: #009ADA;
+    border-color: black;
+    color: white;
     transform: scale(1.1);
   }
 
   ul.wtss-fancy-selector li:hover {
     background:
   silver;
+  }
+
+  ul.wtss-fancy-selector li.wtss-selected:hover {
+    background: #009ADA;
+    border-color: black;
+    color: white;
   }
 
   span.value {
