@@ -265,82 +265,25 @@ form#request-cust-details .wtss-buttons > * {
     margin-top: 1em;
     border-radius: 10px;
 }
-/*
- div.wtss-service-menu div.wtss-ticket-type {
+
+div.wtss-service-menu > * {
+    display: flex;
+    margin: 1em;
+}
+
+div.wtss-service-menu > * > * {
+    flex: 1;
+    margin: auto 0 auto 0;
+}
+
+div.wtss-service-menu > * > * > * {
+    margin: auto 0 auto auto;
+}
+
+div.wtss-service-menu > * > * > button {
     width: 30%;
-    margin: auto;
-    margin-bottom: 0.5em;
-    text-align: center;
-    display: flex;
 }
 
-div.wtss-ticket-type div.wtss-ticket-type-name {
-    align-content: center;
-}
-
-div.wtss-service-menu div.wtss-ticket-type div.wtss-inner-container {
-    width: 50%;
-    margin-left: auto;
-  }
-
-div.wtss-ticket-type div.wtss.inner-container button {
-    margin: auto;
-    width: 100%;
-}
-
-div.wtss-service-menu div.wtss-ticket-type:has(div.wtss-inner-container div.wtss-entitlement) div.wtss-inner-container {
-    margin-left: 0px;
-    width: 100%;
-}
-
-
-div.wtss-service-menu div.wtss-ticket-type:has(div.wtss-inner-container div.wtss-entitlement) {
-    width: 100%;
-    text-align: left;
-    border-top: solid 0.5px;
-    margin-bottom: 0.5em;
-    padding-top: 0.5em;
-    display: block;
-  }
-
-  div.wtss-inner-container button {
-    width: 100%;
-  }
-
-  div.wtss-service-menu div.wtss-ticket-type:has(div.wtss-inner-container div.wtss-entitlement) div.wtss-inner-container button {
-    width: 50%;
-    margin-left: auto;
-  }
-
-div.wtss-services-menu div.wtss-service-menu {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.wtss-component.wtss-service-requests {
-    background-color: white;
-    margin-top: 1em;
-    padding: 1em;
-    border-radius: 10px;
-    overflow-x: scroll;
-  }
-
-  .wtss-component.wtss-booked-services {
-    background-color: white;
-    padding: 0 1em;
-  }
-
-  .wtss-component.wtss-vouchers {
-    background-color: white;
-    margin-top: 1em;
-    padding: 0 1em;
-  }
-
-
-.wtss-ticket-type {
-    margin: 1em 1em 1em 0;
-} */
 
 /* mobile */
 
