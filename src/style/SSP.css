@@ -167,6 +167,10 @@ table.wtss-service-locator-results tbody tr:hover {
     
 }
 
+tr:hover {
+    background:aliceblue;
+}
+
 .wtss-buttons > a{
     padding: 1em;
   }
@@ -257,6 +261,7 @@ form#request-cust-details .wtss-buttons > * {
     padding: 1em;
     border: solid;
     border-radius: 10px;
+    text-align: left;
 }
 
 .wtss-component.wtss-services-menu {
@@ -268,7 +273,7 @@ form#request-cust-details .wtss-buttons > * {
 
 div.wtss-service-menu > * {
     display: flex;
-    margin: 1em;
+    padding: 1em;
 }
 
 div.wtss-service-menu > * > * {
@@ -282,6 +287,12 @@ div.wtss-service-menu > * > * > * {
 
 div.wtss-service-menu > * > * > button {
     width: 30%;
+}
+
+.wtss-voucher-type:hover,
+.wtss-ticket-type 
+{
+    background: aliceblue;
 }
 
 div.wtss-voucher-number {
