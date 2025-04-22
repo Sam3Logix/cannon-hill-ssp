@@ -212,6 +212,14 @@ div.wtss-buttons input.wtss-submit {
     cursor: default;
   }
 
+  li.wtss-site button.wtss-remove {
+    display: none;
+}
+
+li.wtss-selected button.wtss-remove {
+    display: inline-block;
+}
+
 /* Search again */
 
 div.wtss-search-again {
@@ -272,8 +280,17 @@ form#request-cust-details .wtss-buttons > * {
     width: 20%;
 }
 
+div.wtss-button {
+    margin: 1em;
+}
 
+div.wtss-form div.wtss-field {
+    margin: 1em;
+}
 
+div.wtss-form div.wtss-field div.wtss-label {
+    margin: 0.2em;
+}
 
 /* site view */
 
@@ -337,4 +354,14 @@ div.wtss-voucher-number {
         padding: 3px;
         /* height: 77vh; */
     }
+
+    div.wtss-service-menu > * {
+        padding: 1em 1em 1em 0;
+    }
+
+    div.wtss-service-menu > * > * > button {
+        width: 3.5em;
+    }
+
+    
 }
