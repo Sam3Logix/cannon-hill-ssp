@@ -284,6 +284,11 @@ div.wtss-service-menu > * > * > button {
     width: 30%;
 }
 
+div.wtss-voucher-number {
+    font-size: large;
+    font-weight: bold;
+}
+
 
 /* mobile */
 
@@ -291,10 +296,7 @@ div.wtss-service-menu > * > * > button {
     div#wtss-main {
         border-radius: 10px;
         width: 100%;
+        padding: 3px;
         /* height: 77vh; */
-    }
-
-    div.wtss-service-menu div.wtss-ticket-type {
-        width: 100%;
     }
 }
