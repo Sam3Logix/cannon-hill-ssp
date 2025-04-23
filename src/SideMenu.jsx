@@ -4,7 +4,15 @@ function SideMenu() {
   function handleClick(e) {
     const clickedElement = e.target;
     const pagesList = e.target.parentElement;
-    console.log(clickedElement);
+    const activeElement = document.getElementById("active");
+    console.log("Clicked:", clickedElement);
+    console.log("Parent:", pagesList);
+    console.log("Active", activeElement);
+
+    // activeElement.removeAttribute("active");
+    // clickedElement.setAttribute("id", "active");
+    
+    
   }
 
   return (

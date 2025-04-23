@@ -141,13 +141,14 @@ ul.wtss-fancy-selector li {
     border-radius: 10px;
     cursor: pointer;
     text-wrap: nowrap;
+    transform: scale(0.9);
 }
 
 ul.wtss-fancy-selector li.wtss-selected {
     background: #009ADA;
     border-color: black;
     color: white;
-    transform: scale(1.1);
+    transform: scale(1.0);
     transition: 0.1s cubic-bezier(.73,-0.29,.49,1.57);
   }
 
@@ -257,6 +258,7 @@ div.wtss-search-again a:hover {
 input#wtss-phone {
     height: var(--input-box-height);
     width: 40%;
+    min-width: 140px;
     margin: 1em;
 }
 
@@ -277,6 +279,7 @@ form#request-cust-details .wtss-field {
 input.wtss-submit, button.wtss-cancel {
     height: var(--input-box-height);    
     width: 15%;
+    min-width: 70px;
     margin: 0.5em;                            
 }
 
@@ -349,6 +352,10 @@ div.wtss-voucher-number {
     font-weight: bold;
 }
 
+div.wtss-ticket-detail-data  textarea{
+    width: calc(100% - 3em);
+    margin: 1em;
+}
 
 /* mobile */
 
@@ -361,7 +368,7 @@ div.wtss-voucher-number {
     div#wtss-main {
         border-radius: 10px;
         width: 100%;
-        padding: 3px;
+        padding: 1em;
         /* height: 77vh; */
     }
 
