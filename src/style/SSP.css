@@ -195,6 +195,10 @@ table.wtss-service-locator-results tbody tr:hover {
     
 }
 
+div:has(table) {
+    overflow-x: auto;
+}
+
 tr:hover {
     background:aliceblue;
 }
@@ -349,6 +353,11 @@ div.wtss-voucher-number {
 /* mobile */
 
 @media (max-width: 1100px) {
+
+    #wtss-dialog-site-main {
+        padding: 0.2em;
+    }
+
     div#wtss-main {
         border-radius: 10px;
         width: 100%;
@@ -380,6 +389,10 @@ div.wtss-voucher-number {
 
     input.wtss-submit {
         width: 20%;
+    }
+
+    div.wtss-entitlement {
+        font-size: 0.7em;
     }
     
 }
