@@ -140,6 +140,7 @@ ul.wtss-fancy-selector li {
     padding: 1em;
     border-radius: 10px;
     cursor: pointer;
+    text-wrap: nowrap;
 }
 
 ul.wtss-fancy-selector li.wtss-selected {
@@ -363,5 +364,22 @@ div.wtss-voucher-number {
         width: 3.5em;
     }
 
+    li.wtss-site button.wtss-remove {
+        width: 20vw;
+        position: absolute;
+        top: 5px;
+        right: 2px;
+    }
+
+    ul.wtss-fancy-selector li {
+        text-wrap: nowrap;
+        text-overflow: clip;
+        overflow: clip;
+        font-size: 1em;
+    }
+
+    input.wtss-submit {
+        width: 20%;
+    }
     
 }
