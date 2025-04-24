@@ -9,6 +9,10 @@
     background-color: #FFF;
 }
 
+div#primary-content {
+    flex: 2;
+  }
+
 /* recaptcha */
 .grecaptcha-badge {
     position: fixed;
