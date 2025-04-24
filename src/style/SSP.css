@@ -27,6 +27,7 @@ h1 {
 button {
     padding: 0.5em;
     width: 15%;
+    min-width: 50px;
     text-align: center;
   }
 
@@ -53,12 +54,15 @@ div#wtss-dialog-create-ticket {
 
 form#new_request_ticket input.wtss-submit {
     margin-left: 35%;
-    margin-top: 3em;
 }
 
 div.wtss-ticket-detail-label {
     font-size: 1.5em;
     margin-top: 1em;
+  }
+
+  div#wtss-dialog-show-ticket div.wtss-buttons button {
+    min-width: 110px;
   }
 
 textarea {
@@ -79,6 +83,22 @@ input.wtss-service-locator-search-field {
     height: var(--input-box-height);
     margin-bottom: 2em;
 }
+
+div.wtss-button input {
+    padding:
+  1em;
+    margin:
+  1em;
+  }
+
+  button.wtss-cancel-voucher {
+    min-width: 110px;
+    margin-bottom: 1em;
+  }
+
+  div.wtss-home-link {
+    margin-top: 1em;
+  }
 
 /* Property list */
 
@@ -196,7 +216,7 @@ table.wtss-service-locator-results tbody tr:hover {
     
 }
 
-div:has(table) {
+div:has(> table) {
     overflow-x: auto;
 }
 
@@ -299,6 +319,13 @@ div.wtss-form div.wtss-field {
 div.wtss-form div.wtss-field div.wtss-label {
     margin: 0.2em;
 }
+
+button.wtss-more {
+    min-width: 140px;
+    display: grid;
+    margin:
+  0 auto 0 auto;
+  }
 
 /* site view */
 
