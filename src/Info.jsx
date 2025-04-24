@@ -6,4 +6,4 @@ function Info() {
     );
 }
 
-export default APIDemo;
+export default Info;
