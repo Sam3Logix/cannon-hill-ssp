@@ -9,9 +9,13 @@ function SideMenu() {
     console.log("Parent:", pagesList);
     console.log("Active", activeElement);
 
-    // activeElement.removeAttribute("active");
-    // clickedElement.setAttribute("id", "active");
+    activeElement.removeAttribute("id");
+    clickedElement.setAttribute("id", "active");
     
+    if (clickedElement.classList.contains("api-demo-select")) {
+      console.log("Showing API demo...");
+      
+    }
     
   }
 
@@ -19,9 +23,9 @@ function SideMenu() {
     <div id="sidemenu">
       <h1>Pages</h1>
       <ul>
-        <li id="active" onClick={handleClick}>Property Search</li>
-        <li onClick={handleClick}>API Demonstration</li>
-        <li onClick={handleClick}>Info</li>
+        <li id="active" className="property-search-select" onClick={handleClick}>Property Search</li>
+        <li className="api-demo-select" onClick={handleClick}>API Demonstration</li>
+        <li className="info-select" onClick={handleClick}>Info</li>
       </ul>
     </div>
   );
