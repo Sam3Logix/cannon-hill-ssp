@@ -37,8 +37,8 @@ function SideMenu() {
       <h1>Pages</h1>
       <ul>
         <li id="active" className="property-search-select" onClick={handleClick}>Property Search</li>
-        <li className="api-demo-select" onClick={handleClick}>API Demonstration</li>
-        <li className="info-select" onClick={handleClick}>Info</li>
+        {/* <li className="api-demo-select" onClick={handleClick}>API Demonstration</li> */}
+        {/* <li className="info-select" onClick={handleClick}>Info</li> */}
       </ul>
     </div>
   );

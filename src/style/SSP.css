@@ -327,6 +327,11 @@ button.wtss-more {
   0 auto 0 auto;
   }
 
+.wtss-problem {
+    color: red;
+    font-weight: bolder;
+}
+
 /* site view */
 
 #wtss-dialog-site-main {
@@ -394,7 +399,7 @@ div.wtss-ticket-detail-data  textarea{
 
     div#wtss-main {
         border-radius: 10px;
-        width: 100%;
+        width: 93%;
         padding: 1em;
         /* height: 77vh; */
     }

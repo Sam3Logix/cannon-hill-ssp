@@ -16,8 +16,8 @@ root.render(
       <SideMenu />
       <div id="primary-content">
         <SSP />
-        <APIDemo />
-        <Info />
+        {/* <APIDemo /> */}
+        {/* <Info /> */}
       </div>
     </main>
   </React.StrictMode>
