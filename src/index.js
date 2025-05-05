@@ -13,7 +13,7 @@ root.render(
   <React.StrictMode>
     <Header />
     <main>
-      <SideMenu />
+      {/* <SideMenu /> */}
       <div id="primary-content">
         <SSP />
         {/* <APIDemo /> */}

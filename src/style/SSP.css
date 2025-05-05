@@ -1,20 +1,6 @@
-/* 
-TODO: Voucher ticket styling
-*/
 :root {
     --main-color:#FFF; 
 }
-
-
-/* @media (prefers-color-scheme: dark) {
-    :root{
-        --main-color: #272727;
-    }
-
-    body {
-        background-color: var(--main-color);
-    }
-} */
 
 h1 {
     text-align: center;
@@ -337,7 +323,15 @@ button.wtss-more {
 #wtss-dialog-site-main {
     text-align: left;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#wtss-dialog-site-main > :has(*) {
+    width: 45%;
+    background: white;
+    border-radius: 10px;
+    margin: 1em auto 0 auto;
+    padding: 1em;
 }
 
 .wtss-section-title-bar {
@@ -346,6 +340,9 @@ button.wtss-more {
     border: solid;
     border-radius: 10px;
     text-align: left;
+    width: 95% !important;
+    max-width: 73vw;
+    margin: 0 auto;
 }
 
 .wtss-component.wtss-services-menu {
@@ -391,7 +388,7 @@ div.wtss-ticket-detail-data  textarea{
 
 /* mobile */
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
 
     #wtss-dialog-site-main {
         padding: 0.2em;
@@ -399,7 +396,7 @@ div.wtss-ticket-detail-data  textarea{
 
     div#wtss-main {
         border-radius: 10px;
-        width: 93%;
+        width: 85%;
         padding: 1em;
         /* height: 77vh; */
     }
@@ -434,4 +431,12 @@ div.wtss-ticket-detail-data  textarea{
         font-size: 0.7em;
     }
     
+}
+
+@media (max-width: 750px) {
+
+    #wtss-dialog-site-main > :has(*) {
+        width: 90%;
+    }
+
 }
