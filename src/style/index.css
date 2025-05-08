@@ -22,9 +22,9 @@ div#primary-content {
 }
 
 /* global */
-input[type="text"] {
+input[type="text"], input[type="phone"] {
     height: var(--input-box-height);
-    width: 60%;
+    width: 50%;
 }
 
 table {

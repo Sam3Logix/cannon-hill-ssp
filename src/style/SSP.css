@@ -22,6 +22,7 @@ button:active {
 }
 
 div#wtss-main {
+    margin: 0 auto;
 
     padding: 1vw;
 
@@ -91,7 +92,7 @@ div.wtss-button input {
 ul.wtss-fancy-selector {
     list-style: none;
     padding: 0;
-    width: 90%;
+    width: 70%;
     margin: auto;
 }
 
@@ -116,6 +117,11 @@ li.wtss-site:hover {
     transform: scale(1.05);
     background-color: white;
     border: solid;
+}
+
+ul.wtss-fancy-selector li label {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* make it so the cursor isnt pointing when the site is selected */
@@ -436,6 +442,10 @@ div.wtss-ticket-detail-data  textarea{
 @media (max-width: 750px) {
 
     #wtss-dialog-site-main > :has(*) {
+        width: 90%;
+    }
+
+    ul.wtss-fancy-selector {
         width: 90%;
     }
 
