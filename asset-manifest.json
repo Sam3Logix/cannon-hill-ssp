@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/cannon-hill-ssp/static/css/main.a030d5f4.css",
-    "main.js": "/cannon-hill-ssp/static/js/main.262b2e20.js",
-    "static/media/3lgx-swirl-logo.png": "/cannon-hill-ssp/static/media/3lgx-swirl-logo.31b51da49d585690150a.png",
+    "main.js": "/cannon-hill-ssp/static/js/main.e6e12b2e.js",
+    "static/media/bayside-logo.png": "/cannon-hill-ssp/static/media/bayside-logo.741e2c49726f8f5c46f0.png",
     "index.html": "/cannon-hill-ssp/index.html",
     "main.a030d5f4.css.map": "/cannon-hill-ssp/static/css/main.a030d5f4.css.map",
-    "main.262b2e20.js.map": "/cannon-hill-ssp/static/js/main.262b2e20.js.map"
+    "main.e6e12b2e.js.map": "/cannon-hill-ssp/static/js/main.e6e12b2e.js.map"
   },
   "entrypoints": [
     "static/css/main.a030d5f4.css",
-    "static/js/main.262b2e20.js"
+    "static/js/main.e6e12b2e.js"
   ]
 }
