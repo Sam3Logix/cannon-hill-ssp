@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-// import './style/SSP.css';
-import './style/SSP-bayside.css';
+import './style/SSP.css';
+// import './style/SSP-bayside.css';
 
 function SSP() {
   

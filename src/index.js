@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import './style/index.css';
-import './style/index-bayside.css';
+import './style/index.css';
+// import './style/index-bayside.css';
 import Header from './Header';
 import SSP from './SSP';
 import SideMenu from './SideMenu';
